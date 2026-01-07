@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Store Name | Official Website</title>
+  <meta name="description" content="Your Store Name – address, phone number, opening hours, and location on Google Maps." />
+
+  <!-- Local Business Schema for Google Maps -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Your Store Name",
+    "image": "https://yourwebsite.com/store.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Street Name, Area",
+      "addressLocality": "City",
+      "addressRegion": "Province",
+      "postalCode": "XXXXX",
+      "addressCountry": "NP"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.2096,
+      "longitude": 83.9856
+    },
+    "url": "https://yourwebsite.com",
+    "telephone": "+977-98XXXXXXXX",
+    "openingHours": "Su-Sa 09:00-20:00"
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #0f172a;
+    }
+    .info p {
+      margin: 6px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #e5e7eb;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Store Name</h1>
+  <p>Your trusted local shop</p>
+</header>
+
+<section class="info">
+  <h2>Store Information</h2>
+  <p><strong>Address:</strong> Street Name, Area, City, Nepal</p>
+  <p><strong>Phone:</strong> +977-98XXXXXXXX</p>
+  <p><strong>Email:</strong> yourstore@email.com</p>
+  <p><strong>Opening Hours:</strong> 9:00 AM – 8:00 PM (All Days)</p>
+</section>
+
+<section>
+  <h2>About Our Store</h2>
+  <p>
+    Your Store Name provides quality products and friendly service to our local community. 
+    We are conveniently located and easy to find on Google Maps.
+  </p>
+</section>
+
+<section>
+  <h2>Find Us on Google Maps</h2>
+  <!-- Replace src with your Google Maps embed link -->
+  <iframe 
+    src="https://www.google.com/maps?q=Pokhara,Nepal&output=embed" 
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</section>
+
+<footer>
+  <p>© 2026 Your Store Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
